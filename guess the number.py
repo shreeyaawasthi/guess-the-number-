@@ -5,7 +5,7 @@ attempt=0
 number = random.randint(1, 10)
 
 while attempt<max_attempt:
-    guess = int(input("Enter your guess (1-10): "))
+    guess = int(input("Enter your guess (1-100): "))
     attempt+=1
     if guess==number:
          print("Congratulations! You guessed correctly.")
